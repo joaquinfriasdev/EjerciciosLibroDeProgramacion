@@ -15,10 +15,10 @@ public class Capitulo2Ejercicio1 {
     */
     public static void main(String[] args) {
         
-     Persona joaPer = new Persona("Joaquin", "Frias", 40404332, 1998);
+     Persona joaPer = new Persona("Joaquin", "Frias", 40404332, 1998, "Argentina", 'H');
      joaPer.imprimir();  
         System.out.println("----------------------------");
-     Persona verePer = new Persona("Verena", "Ortiz", 33433232, 1998);
+     Persona verePer = new Persona("Verena", "Ortiz", 33433232, 1998, "Paraguay", 'M');
      verePer.imprimir();
     }
     
